@@ -1,0 +1,72 @@
+.card {
+    width: 40%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+    margin: 10px;
+    position: relative;
+    
+}
+
+.restaurantCity {
+    padding: 1rem;
+    background-color: rgba(43, 45, 66, .7);
+    transition: all .3s ease-in-out;
+}
+
+.restaurantCity:hover {
+    background-color: rgba(255, 255, 128, .5);
+    font-size: 20px;
+}
+
+.restaurantPicture {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px;
+}
+
+.restaurantDescription {
+    border-color: #fff;
+    padding: 2;
+}
+
+.cardRow1 {
+    justify-content: space-between;
+    flex: 1 1 auto;
+    padding: 2
+}
+
+.cardRow2 {
+    justify-content: space-between;
+    flex: 1 1 auto;
+    margin: 5;
+    align-items: center;
+    padding: 2;
+}
+
+.restaurantRating {
+    background-color: white 50%;
+    border-radius: 9999px;
+    border-color: #b66060 ;
+    color: #e48585;
+    font-style: italic;
+    
+}
+.fontType1 {
+    font-weight: 600;
+    margin: 2;
+}
+
+@media screen and (max-width: 767px) {
+    .restaurantCard {
+        width: 45%;
+        border-radius: 25px;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .restaurantCard {
+        width: 100%;
+        border-radius: 25px;
+    }
+}
